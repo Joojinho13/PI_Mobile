@@ -19,12 +19,12 @@ public class CoinCounter : MonoBehaviour
     
     void Start()
     {
-        coinText.text = "COINS " + CurrentCoins.ToString();
+        coinText.text = "Moedas " + CurrentCoins.ToString();
     }
 
     public void IncraseCoins(int v)
     {
         CurrentCoins += v;
-        coinText.text = "COINS " + CurrentCoins.ToString();
+        coinText.text = "Moedas " + CurrentCoins.ToString();
     }
 }
